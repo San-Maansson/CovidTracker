@@ -12,3 +12,5 @@ Other minor cleaning and adjustments were made.
 - Based on these 2 files, a new database with 2 tables were later created in SQL Server for further manipulation
 
 - The SQL queries that were used were later uploaded to this project folder.
+
+Link to visualization [https://public.tableau.com/app/profile/san.maansson]
