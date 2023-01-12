@@ -13,4 +13,4 @@ Other minor cleaning and adjustments were made.
 
 - The SQL queries that were used were later uploaded to this project folder.
 
-- Link to visualization [https://public.tableau.com/app/profile/san.maansson]
+- Link to final product [https://public.tableau.com/app/profile/san.maansson]
