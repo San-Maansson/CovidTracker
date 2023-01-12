@@ -29,11 +29,21 @@ From PortfolioProject..CovidDeaths
 where Location = 'Singapore'
 order by 1,2
 
--- Looking at Countries with Highest Infection Rate compared to Population
-Select Location, Population, MAX(total_cases) as HighestInfectionCount, MAX(total_deaths/population)*100 as PercentPopulationInfected
+
+
+-- Table 1-3 - Queries to be used for Tableau visualization 
+Select Location, Population, MAX(total_cases) as HighestInfectionCount,  MAX((total_cases/population))*100 as PercentPopulationInfected, MAX(total_deaths) as "Total Deaths"--, MAX(total_deaths/MAX(total_cases))*100
+From PortfolioProject..CovidDeaths
+--Where location like '%states%'
+Group by Location, population
+order by PercentPopulationInfected desc
+
+
+-- Table 4 - Looking at Countries with Highest Infection Rate compared to Population, time series
+Select Location, Population, date, MAX(total_cases) as HighestInfectionCount, MAX(total_cases/population)*100 as PercentPopulationInfected
 From PortfolioProject..CovidDeaths
 -- where Location = 'Singapore'
-Group by Location, Population
+Group by Location, Population, date
 order by PercentPopulationInfected desc
 
 
