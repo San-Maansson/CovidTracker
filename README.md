@@ -1,6 +1,6 @@
 ## CovidTracker
 
-The primary focus is to practice and use SQL queries and the end goal of this project is to prepare Covid related data for data visualization. SQL queries on this depository were created via MS SQL Server Management Studio as an exercise.
+The primary focus is to practice and use SQL queries and the end goal of this project is to obtain appropriate data for visualization of Covid infections, deaths and forecast. For this exercise, SQL queries were created via MS SQL Server Management Studio.
 
 - The dataset was downloaded from [https://ourworldindata.org/covid-deaths] as a CSV file and subsequently edited via Excel
 
